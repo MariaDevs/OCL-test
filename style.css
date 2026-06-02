@@ -187,6 +187,13 @@ footer{background:#060810;border-top:1px solid var(--border);padding:50px 0 30px
 }
 @media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
 
+/* ── Country strip (desktop only) ── */
+.country-strip{background:#060810;border-bottom:1px solid var(--border);padding:6px 0}
+.country-strip .container{display:flex;gap:6px;justify-content:center;align-items:center;flex-wrap:wrap}
+.country-strip a{font-size:.8rem;color:var(--text-muted);padding:3px 10px;border-radius:5px;border:1px solid var(--border);display:flex;align-items:center;gap:5px;transition:border-color .15s,color .15s,background .15s}
+.country-strip a:hover{border-color:var(--gold-dim);color:var(--text);background:var(--bg-card2)}
+@media(max-width:900px){.country-strip{display:none}}
+
 /* ── Pros / Cons ── */
 .pros-cons{margin-bottom:14px}
 .pros-cons-row{display:grid;grid-template-columns:1fr 1fr;gap:6px}
