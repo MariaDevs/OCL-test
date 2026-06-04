@@ -26,7 +26,9 @@ img{max-width:100%;display:block}
 
 header{background:#0d1220;border-bottom:2px solid var(--gold-dim);position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,.6)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:20px}
-.logo{font-size:1.5rem;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
+.logo{display:inline-flex;align-items:center;gap:9px;font-size:1.5rem;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
+.logo-mark{width:30px;height:30px;flex:none;-webkit-text-fill-color:initial}
+.footer-brand .logo-mark{width:26px;height:26px}
 .logo span{color:#fff;-webkit-text-fill-color:#fff}
 nav ul{display:flex;list-style:none;gap:4px;flex-wrap:wrap}
 nav ul li{position:relative}
