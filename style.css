@@ -29,6 +29,15 @@ header{background:#0d1220;border-bottom:2px solid var(--gold-dim);position:stick
 .logo{display:inline-flex;align-items:center;gap:9px;font-size:1.5rem;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
 .logo-mark{width:30px;height:30px;flex:none;-webkit-text-fill-color:initial}
 .footer-brand .logo-mark{width:26px;height:26px}
+.casino-more{margin-top:14px;text-align:center}
+.casino-more>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;background:var(--bg-card);border:1px solid var(--gold-dim);color:var(--gold-light);font-weight:700;padding:12px 26px;border-radius:var(--radius)}
+.casino-more>summary::-webkit-details-marker{display:none}
+.casino-more>summary:hover{border-color:var(--gold)}
+.casino-more>summary .chev{transition:transform .2s}
+.casino-more[open]>summary .chev{transform:rotate(180deg)}
+.casino-more[open]>summary .more-show{display:none}
+.casino-more:not([open])>summary .more-hide{display:none}
+.casino-more .casino-grid{margin-top:20px;text-align:left}
 .logo span{color:#fff;-webkit-text-fill-color:#fff}
 nav ul{display:flex;list-style:none;gap:4px;flex-wrap:wrap}
 nav ul li{position:relative}
